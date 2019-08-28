@@ -211,15 +211,15 @@ void parasiana(){
 }
 
 void parasime(){
-        float x,y,a,b,c;
-printf("Insira os dados das equacoes parametricas \n{x=x0+at\n{y=y0+bt");
-printf(" \nInsira um ponto qualquer que passe na reta(insira o eixo x e depois o y):");
-scanf(" %f %f",&x ,&y);
-printf(" \nInsira o vetor diretor da reta(insira o eixo x e depois o y):");
-scanf("%f %f",&a,&b);
-printf(" \nA equacao inserida foi: \n{x=%.2f+(%.2f)t\n{y=%.2f+(%.2f)t",x,a,y,b);
-printf("\nA equacao simetrica dessa reta e:\n");
-printf("(x-(%.2f))/%.2f = (y - (%.2f))/%.2f",x,a,y,b);
+    float x,y,a,b,c;
+    printf("Insira os dados das equacoes parametricas \n{x=x0+at\n{y=y0+bt");
+    printf(" \nInsira um ponto qualquer que passe na reta(insira o eixo x e depois o y):");
+    scanf(" %f %f",&x ,&y);
+    printf(" \nInsira o vetor diretor da reta(insira o eixo x e depois o y):");
+    scanf("%f %f",&a,&b);
+    printf(" \nA equacao inserida foi: \n{x=%.2f+(%.2f)t\n{y=%.2f+(%.2f)t",x,a,y,b);
+    printf("\nA equacao simetrica dessa reta e:\n");
+    printf("(x-(%.2f))/%.2f = (y - (%.2f))/%.2f",x,a,y,b);
 }
 void paratorial(){
     float x,y,a,b;
@@ -311,7 +311,7 @@ void transformar(){
     return ;
 }
 
-unsigned long long fatorial(int n){
+unsigned long long fatorial(unsigned int n){
     if(n==1 || n==0)
         return 1;
     else
